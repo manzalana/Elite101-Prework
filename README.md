@@ -1,3 +1,17 @@
-# Elite101-Prework
-# Beginning layout of a chat bot
-#RAHHH
+# Introduction
+
+
+This is a repository created by *Alana*
+
+
+## Usage
+
+
+Run this command to execute the application:
+
+
+`python filename.py`
+
+ 
+
+```
