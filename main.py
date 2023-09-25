@@ -7,7 +7,7 @@ Allow the user to choose from a menu/list of options on how they can continue th
 
 
 '''
-convo_choices=['This is a response to option 1', 'This is a response to option 2', 'Goodbye, I hope you have a good day!']
+
 active=True
 
 print('Hello User!')
@@ -15,11 +15,12 @@ name=input('What is your name? ')
 age=input('How old are you? ')
 print(f"How can I assist you today, {name}?")
 
+convo_choices=[f"Cool, I can help you with any math you need, {name}!", 'Alright! How has your day been so far?', 'Goodbye, I hope you have a good day!']
 
 
 response=''
 while active:
-  choice=input('This will be a menu\n1. option one\n2. option two\n3. Exit program  ')
+  choice=input('\nPlease enter a number from the menu below\n1. Math Help\n2. Do you just want to chat?\n3. Exit program  \n')
   if choice=='1':
     response=convo_choices[0]
   elif choice=='2':
